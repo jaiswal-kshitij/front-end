@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+</head>
+
+<body>
+    <header style="margin: auto;"><h1>REGISTRATION FORM</h1></header>
+    <form action="">
+<fieldset>
+    <legend>personal information</legend>
+            <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname">
+
+        <p>specify your gender</p>
+        <input type="radio" name="one" id="male">
+        <label for="male">male</label><br>
+        <input type="radio" name="one" id="female">
+        <label for="female">female</label><br>
+        <input type="radio" name="one" id="others">
+        <label for="others">other</label>
+</fieldset>
+
+        <p>choose your skills</p>
+        <input type="checkbox" id="JFS">
+        <label for="JFS">JAVA Fullstack</label><br>
+        <input type="checkbox" id="mern">
+        <label for="mern">MERN Fullstack</label><br>
+        <input type="checkbox" id="Ds">
+        <label for="Ds">Data Science</label><br>
+        <input type="checkbox" id="AiMl">
+        <label for="AiMl">AI-ML</label><br>
+        <br>
+        <label for="semester">choose the semester</label>
+        <select name="sem" id="semester" size="2" multiple>
+            <option value="">sem-1</option>
+            <option value="">sem-2</option>
+            <option value="">sem-3</option>
+            <option value="">sem-4</option>
+            <option value="">sem-5</option>
+            <option value="">sem-6</option>
+        </select>
+        <br>
+        <br>
+        <textarea name="" id="" rows="5" cols="30">type your description here...</textarea>
+        <br>
+        <button type="button">lock</button>
+        <br><br>
+        <input type="submit">
+    </form>
+</body>
+
+</html>
